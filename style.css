@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+#section{
+    background-color: plum;
+    padding: 70px 10rem;
+    box-shadow: 1px 1px 15px black;
+}
+#container{
+    background-color: black;
+    color: white;
+    padding: 5px 60px;
+    margin: 25px;
+}
+.container1{
+    text-align: center;
+}
+button{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+}
+button:hover{
+    transform: scale(1.1);
+}
